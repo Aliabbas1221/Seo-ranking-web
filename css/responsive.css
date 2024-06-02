@@ -1,0 +1,44 @@
+
+
+
+
+@media (max-width:991px) {
+    /* custom css */
+    section{
+        padding: 20px 0;
+    }
+    h1{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 30px;
+        line-height: 40px;
+        
+    }
+    h3{
+        font-size: 20px;
+    }
+    
+    /* navbar */
+    .header-scrolled{
+        height: auto;
+    }
+    .header-wrapper .menu-navbar-nav{
+        text-align: center;
+        background-color: var(--bg-white);
+        padding-bottom:15px ;
+    }
+    .header-wrapper .nav-item .nav-link{
+        margin-top: 10px;
+    }
+    .blog-wrapper .newsletter{
+        width: 100%;
+    }
+}
+
+@media (max-width:767px) {
+    .main-btn{
+        font-size: 12px;
+    }
+    
+}
